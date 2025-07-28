@@ -33,12 +33,11 @@ Este projeto foi desenvolvido para demonstrar de forma prática e didática:
 ## 🏗️ Arquitetura do Projeto
 
 ```
-bi_call_center/
-├── data/
-│   └── call_center_data.csv          # Base de dados fictícia
+Call-Center-Py/
 ├── src/
 │   ├── generate_data.py              # Gerador de dados fictícios
 │   └── calculate_indicators.py       # Motor de cálculo de indicadores
+│   └── call_center_data.csv          # Base de dados fictícia
 ├── app/
 │   └── dashboard.py                  # Dashboard interativo Streamlit
 └── README.md                         # Documentação do projeto
@@ -170,6 +169,8 @@ data,atendente,supervisor,coordenador,operacao,cidade,estado,nome_indicador,nume
 
 Este é um projeto didático aberto a contribuições! Algumas ideias para melhorias:
 
+- Adicionar um sistema de Login/Logout
+- Restrição de acesso de arcordo com o tipo usuário
 - Adicionar novos indicadores (FCR, Abandono, etc.)
 - Implementar filtros adicionais
 - Criar visualizações mais avançadas
