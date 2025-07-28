@@ -82,7 +82,7 @@ def load_data():
     """Carrega e processa os dados do call center"""
     try:
         # Carregar dados brutos
-        df_raw = pd.read_csv("app/data/call_center_data.csv")
+        df_raw = pd.read_csv("app/call_center_data.csv")
         df_raw["data"] = pd.to_datetime(df_raw["data"])
         
         # Calcular indicadores
