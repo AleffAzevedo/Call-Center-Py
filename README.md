@@ -65,7 +65,7 @@ cd app
 streamlit run dashboard.py
 ```
 
-O dashboard estará disponível em `http://localhost:8501`
+O dashboard estará disponível em `https://call-center-py.streamlit.app/`
 
 ## 💡 Modelo Numerador/Denominador
 
