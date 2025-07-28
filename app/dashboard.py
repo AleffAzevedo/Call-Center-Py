@@ -6,9 +6,6 @@ from datetime import datetime, timedelta
 
 from calculate_indicators import calculate_indicators
 
-if __name__ == "__main__":
-    main()
-
 # Configuração da página
 st.set_page_config(
     page_title="BI Call Center",
